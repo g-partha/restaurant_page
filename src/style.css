@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-1: rgba(70, 39, 39, 0.83); /* header color*/
+    --color-2: rgb(144, 174, 132); /* nav button color*/
+    --color-3: rgb(48, 45, 44); /*font color */
+}
+body{
+    display: grid;
+    gap: 10px;
+    justify-items: center;
+    background-image: url(./resources/background.jpg);
+    background-color: rgba(0, 0, 0, 0.566);
+    background-size: cover;
+    background-blend-mode:darken;
+    font-family: "Inter";
+    color: var(--color-3);
+}
+header{
+    background-color: var(--color-1);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px -5px black;
+    width: 100%;
+}
+nav{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+nav > button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: none;
+    color: var(--color-2);
+    font-size: 25px;
+    font-family: "Inter";
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+    box-shadow: 0 0 10px -7px black;
+}
+
+div#footer{
+    padding: 20px 0;
+    background-color: var(--color-1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+}
+div#footer a{
+    color:aliceblue;
+}
+
+div#content{
+display: grid;
+justify-content: center;
+}
+.home-page-container{
+    width: 800px;
+    display: grid;
+    gap: 10px;
+    justify-items: center;
+}
+#hero-image{
+    width: 60%;
+    box-shadow: 0 0 10px -5px grey;
+    border-radius: 25% 75% 71% 29% / 30% 36% 64% 70%;
+}
+.home-page-heading{
+    padding: 50px 100px;
+    width: 80%;
+    text-align: justify;
+    border-radius: 76% 24% 47% 53% / 41% 61% 39% 59%;
+    background-color: rgb(134, 156, 125);
+
+}
+.home-page-paragraph{
+    width: 80%;
+    text-align: justify;
+    color:rgb(174, 200, 224);
+    padding: 50px 100px;
+    border-radius: 25% 75% 71% 29% / 30% 36% 64% 70%;
+    background-color: rgb(60, 134, 179);
+}

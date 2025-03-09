@@ -1,4 +1,5 @@
 import "./style.css";
+import { createHomePage } from "./homepage";
 
-
-console.log("Hello modular JS");
+const content = document.querySelector("div#content");
+createHomePage();
