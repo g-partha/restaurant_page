@@ -10,10 +10,10 @@ class MenuItems{
     }
 }
 
-const menuItemsCollection = [(new MenuItems("Foie Gras", "description of the item", imageFoieGras)),
-                            (new MenuItems("Risoto", "description of the item", imageRisoto)),
-                            (new MenuItems("Fried Chicken", "description of the item", imageFriedChicken))]
-export const createMenuPage(){
+const menuItemsCollection = [new MenuItems("Foie Gras", "description of the item", imageFoieGras),
+                            new MenuItems("Risoto", "description of the item", imageRisoto),
+                            new MenuItems("Fried Chicken", "description of the item", imageFriedChicken)]
+export const createMenuPage = () => {
     const menuPageContainer = document.createElement("div");
     menuPageContainer.setAttribute("id", "menu-page-container");
     const menuItemsList = document.createElement("div");
@@ -33,7 +33,7 @@ export const createMenuPage(){
         menuItemsCardDescription[i].classList.toggle("menu-items-card-description");
         menuItemsCardDescription[i].textContent = menuItemsCollection[i].description;
         menuItemsCard[i].appendChild(menuItemsCardDescription[i]);
-        menuItemsCardImage[i] = document.createElement("div");
+        menuItemsCardImage[i] = document.createElement("img");
         menuItemsCardImage[i].classList.toggle("menu-items-card-image");
         menuItemsCardImage[i].src = menuItemsCollection[i].image;
         menuItemsCard[i].appendChild(menuItemsCardImage[i]);
