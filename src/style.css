@@ -18,8 +18,10 @@ body{
     background-color: rgba(0, 0, 0, 0.566);
     background-size: cover;
     background-blend-mode:darken;
+    background-attachment: fixed;
     font-family: "Inter";
     color: var(--color-3);
+    min-height: 100vh;
 }
 header{
     background-color: var(--color-1);
@@ -83,7 +85,6 @@ justify-content: center;
     text-align: justify;
     border-radius: 76% 24% 47% 53% / 41% 61% 39% 59%;
     background-color: rgb(134, 156, 125);
-
 }
 .home-page-paragraph{
     width: 80%;
@@ -95,20 +96,40 @@ justify-content: center;
 }
 
 div#menu-page-container{
-
+    max-width: 800px;
+    display: grid;
+    justify-items: center;
 }
 div#menu-items-list{
+    display: grid;
+    justify-items: center;
+    gap: 10px;
     
 }
 .menu-items-card{
-
-}
-.menu-items-card-title{
-
-}
-.menu-items-card-description{
-
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+    background-color: var(--color-2);
+    border-radius: 60% 40% 63% 37% / 32% 53% 47% 68%;
+    padding: 50px 60px;
 }
 .menu-items-card-image{
-    
+    width: 60%;
+    border-radius: 50px;
+}
+.menu-items-card-title{
+    background-color: var(--color-1);
+    padding: 20px 0;
+    width: 60%;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: bisque;
+}
+.menu-items-card-description{
+    color: var(--color-1);
+    font-style: italic;
+    width: 60%;
+    text-align: center;
 }

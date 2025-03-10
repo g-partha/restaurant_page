@@ -4,4 +4,3 @@ import { createMenuPage } from "./menu";
 
 const content = document.querySelector("div#content");
 createHomePage();
-createMenuPage();

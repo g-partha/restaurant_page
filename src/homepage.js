@@ -1,6 +1,7 @@
 import restaurantImage from "./resources/restaurant-image.jpg";
 
 function createHomePage(){
+    content.textContent = "";
     const homePageContainer = document.createElement("div");
     homePageContainer.classList.toggle("home-page-container");
     const heroImage = document.createElement("img");
