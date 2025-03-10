@@ -75,21 +75,20 @@ justify-content: center;
     justify-items: center;
 }
 #hero-image{
-    width: 60%;
+    width: 70%;
     box-shadow: 0 0 10px -5px grey;
     border-radius: 25% 75% 71% 29% / 30% 36% 64% 70%;
 }
 .home-page-heading{
     padding: 50px 100px;
-    width: 80%;
-    text-align: justify;
+    width: 70%;
     border-radius: 76% 24% 47% 53% / 41% 61% 39% 59%;
     background-color: rgb(134, 156, 125);
 }
 .home-page-paragraph{
-    width: 80%;
-    text-align: justify;
+    width: 70%;
     color:rgb(174, 200, 224);
+    text-align: justify;
     padding: 50px 100px;
     border-radius: 25% 75% 71% 29% / 30% 36% 64% 70%;
     background-color: rgb(60, 134, 179);
