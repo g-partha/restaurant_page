@@ -13,6 +13,7 @@
 body{
     display: grid;
     gap: 10px;
+    grid-template-rows: 70px auto 60px;
     justify-items: center;
     background-image: url(./resources/background.jpg);
     background-color: rgba(0, 0, 0, 0.566);
@@ -131,4 +132,20 @@ div#menu-items-list{
     font-style: italic;
     width: 60%;
     text-align: center;
+}
+#about-page-container{
+    width: 800px;
+    display: grid;
+    justify-items: center;
+    align-content: start;
+}
+.about-page-paragraph{
+    background-color: rgb(76, 137, 179);
+    width: 80%;
+    border-radius: 50px;
+    color:rgb(255, 255, 255);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
